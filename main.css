@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700;900&family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1410 100%);
+    color: white;
+}
+
+header .container h1 {
+    color: #FFD700;
+    text-decoration: underline 3px solid #FFD700;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+header {
+    box-shadow: 0 15px 30px -10px #FFD700;
+    z-index: -10;
+    position: relative;
+    background-color: black;
+    border-bottom: 2px solid #FFD700;
+}
+
+.nav-link.active {
+  color: black !important;
+  background-color: #FFD700 !important;
+  text-shadow: none;
+}
+
+.nav-link{
+    color: white !important ;
+}
+
+.nav-link:hover{
+    color: black !important;
+    background-color: #FFD700;
+    transition: all 0.3s ease !important;
+    text-shadow: 0 0 5px #FFD700;
+}
+
+.nav-icon {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 5px;
+    display: inline;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    max-height: 768px;
+    border-radius: 32px;
+    margin-top: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #FFD700;
+    box-shadow: 0 0 20px #FFD700, inset 0 0 20px rgba(255, 215, 0, 0.1);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social-icon {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 5px #FFD700);
+}
+
+.social-links a:hover .social-icon {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 15px #FFD700);
+}
+
+
+#line {
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 64px;
+    padding-top: 16px;
+    color: #FFD700;
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #FFD700;
+    z-index: -10;
+    position: relative;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+#about-us-text h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+#about-us-text p {
+    font-size: 22px;
+}
+
+#about-us-text h1, #about-us-text p {
+    color: white;
+}
+
+.row h2 {
+    color: white;
+}
+
+.row h2 span {
+    color: #FFD700;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.col-md-5 img {
+    width: 512px;
+    max-width: 100%;
+}
+#programs .col-md-10 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+#programs .col-md-10 p {
+    color: white;
+}
+
+#programs .col-md-10 h5, #social {
+    color: #FFD700;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-shadow: 0 0 5px #FFD700;
+}
+
+.btn-custom {
+  background-color: #FFD700;
+  color: black;
+  border: 2px solid #FFA500;
+  margin-bottom: 64px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #FFA500;
+    color: black;
+    box-shadow: 0 0 15px #FFD700;
+    transform: translateY(-2px);
+}
+
+label {
+    color: white;
+    margin-top: 16px;
+}
+
+#subm {
+    margin-top: 16px;
+    width: 128px;
+    height: 36px;
+}
+
+.bi-github {
+    color: white;
+}
+
+.social li {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+#social-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::marker {
+    color: rgb(0, 0, 0, 0);
+}
+#bug {
+        font-size: 1px;
+    }
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    #title {
+        padding-top: 16px;
+    }
+    #line {
+        margin-top: 64px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 8px;
+    }
+    #bug {
+        font-size: 1px;
+    }
+    aside {
+        margin-bottom: 32px;
+    }
+
+}

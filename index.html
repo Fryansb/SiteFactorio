@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorio - The Gathering Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700;900&family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#header" data-bs-offset="100">
+    <header class="navbar navbar-expand-lg sticky-top" id="header">
+        <div class="container">
+            <h1 id="title">Factorio - The Gathering</h1>
+            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#menunav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menunav">
+                <ul class="nav nav-pills p-4 d-block d-md-flex">
+                    <li class="nav-item me-2">
+                        <a href="#photos" class="nav-link"><img src="./images/icons/home_icon.png" alt="home" class="nav-icon"> Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#about-us" class="nav-link"><img src="./images/icons/game_info_icon.png" alt="game info" class="nav-icon"> Game Info</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#programs" class="nav-link"><img src="./images/icons/guide_icon.png" alt="guides" class="nav-icon"> Guides</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#journey" class="nav-link"><img src="./images/icons/mensage_icon.png" alt="contact" class="nav-icon"> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="photos">
+        <div class="container">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/carousel/carousel_1.jpg" alt="factorio factory">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carousel/carousel_2.png" alt="production lines">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carousel/carousel_3.jpg" alt="automation">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carousel/carousel_4.jpg" alt="megabase">
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="line">
+        <h2><p>"Automate everything. Optimize constantly. Reach the stars."</p></h2>
+    </section>
+
+    <div id="about-us" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="about-img">
+                    <img src="./images/guides/banner_about.jpg" class="d-block w-100 rounded" alt="">
+                </div>
+                <div class="col-md-6" id="about-us-text">
+                    <h1>What is Factorio?</h1>
+                    <p>Factorio is a game about building and managing factories on an alien planet. You start with basic tools and raw materials, then progressively unlock technology, craft increasingly complex production chains, and automate everything. The core gameplay loop is addictive: gather resources, build machines, create conveyor systems, and watch your factory grow exponentially. From simple furnaces to massive mega-factories with thousands of production lines, Factorio challenges you to optimize every system. The game demands strategic thinking, planning, and creative problem-solving as you work toward launching a satellite and escaping the hostile planet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="line">
+        <h2><p>"The factory must grow. Production never stops."</p></h2>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">ESSENTIAL <span>GUIDES</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#early" class="nav-link active">Early Game</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mid" class="nav-link ">Mid Game</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#late" class="nav-link ">Late Game</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#tips" class="nav-link ">Pro Tips</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="early">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_1.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">GATHERING BASICS</h5>
+                                    <p class="p-book">Start by gathering wood and stone with your hands. Craft a wooden axe and pickaxe to speed up collection. Build your first furnace to smelt copper and iron ore.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_2.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">FIRST MACHINES</h5>
+                                    <p class="p-book">Craft wooden chests to organize your inventory. Build a basic conveyor belt system to automate ore smelting. Create your first assemblers.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_3.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">STEAM POWER</h5>
+                                    <p class="p-book">Build boilers and steam engines to generate electricity. Create a coal-powered steam system to run your early machines. Design your first electrical grid.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_4.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">DEFENSE SETUP</h5>
+                                    <p class="p-book">Craft walls and gun turrets to defend against biters. Establish a perimeter around your factory. Build ammo production lines.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="mid">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_5.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">OIL PROCESSING</h5>
+                                    <p class="p-book">Research oil processing and build your first refinery. Create chemical plants to process crude oil into fuel and sulfuric acid. Establish long supply chains for petroleum products.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_6.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">NUCLEAR POWER</h5>
+                                    <p class="p-book">Build uranium mining and enrichment systems. Construct nuclear reactors for massive power generation. Design heat exchanger systems for efficient steam production.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_7.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">LOGISTICS NETWORK</h5>
+                                    <p class="p-book">Design logistic networks with provider and requester chests. Create robot highways using roboports. Establish efficient supply distribution across your factory.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_8.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">RATIOS & BALANCING</h5>
+                                    <p class="p-book">Master production ratios for efficient crafting. Balance input and output to avoid bottlenecks. Optimize assembler placement and speed modules.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="late">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_9.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">MEGABASE PLANNING</h5>
+                                    <p class="p-book">Design modular factory layouts for massive scale production. Plan bus systems for centralized resource distribution. Build specialized production zones for each product line.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_10.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">SPACE EXPLORATION</h5>
+                                    <p class="p-book">Launch rockets to space platforms. Build orbital stations and mining outposts. Establish space-based production chains. Begin interplanetary resource management.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_11.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">ALIEN COMBAT</h5>
+                                    <p class="p-book">Research military technologies and defense turrets. Build walls and automated defense systems. Manage biters with pollution control. Establish secure perimeter around factory.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_12.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">ENDGAME GOALS</h5>
+                                    <p class="p-book">Set ambitious production targets (Thousands Per Minute). Achieve space elevator completion. Optimize complex multi-level supply chains. Master the ultimate factory challenge.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="tips">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_9.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">BLUEPRINT MASTERY</h5>
+                                    <p class="p-book">Create reusable blueprint books for common production lines. Share blueprints with other players. Use construction robots to build from blueprints instantly. Blueprints save countless hours.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_10.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">TRAIN SYSTEMS</h5>
+                                    <p class="p-book">Build efficient train networks for long-distance transport. Program train schedules and stations correctly. Design train unloading stations for maximum throughput. Trains handle massive volumes.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_11.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">DEBUGGING FACTORIES</h5>
+                                    <p class="p-book">Use production graphs to identify bottlenecks. Monitor item flows to spot inefficiencies. Check power consumption for electrical issues. Systematic debugging solves problems quickly.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="d-block w-100" src="./images/guides/guide_12.jpg" alt="guide"/>
+                                    <h5 class="fw-bold">COMMUNITY & MODS</h5>
+                                    <p class="p-book">Explore popular community mods to enhance gameplay. Join multiplayer servers to play with friends. Share your factory designs with the community. Factorio's modding scene expands content.</p>
+                                    <button type="button" class="btn btn-custom">Read Guide <span>→</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="line">
+        <h2><p>"Innovation drives progress. Efficiency wins the game."</p></h2>
+    </section>
+
+    <section id="journey">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Get <span>Involved</span></h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" clas="form-label">Name</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" clas="form-label">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="celular" clas="form-label">Favorite Factory Feature</label>
+                                <input type="text" id="celular" class="form-control" placeholder="e.g., Trains, Circuits, Space Exploration" required>
+                            </div>
+                            <div>
+                                <label for="nome" clas="form-label">Message</label>
+                                <textarea id="msn" class="form-control" placeholder="Share your Factorio stories and tips..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom" id="subm">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row" id="social-center">
+                            <h3 class="section-title">
+                                <span id="social">Community</span>
+                            </h3>
+                            <div class="social-links">
+                                <a href="https://www.factorio.com" title="Official Website">
+                                    <img src="./images/icons/internet_icon.png" alt="website" class="social-icon">
+                                </a>
+                                <a href="https://reddit.com/r/factorio" title="Reddit Community">
+                                    <img src="./images/icons/mensage_icon.png" alt="community" class="social-icon">
+                                </a>
+                                <a href="https://github.com" title="GitHub">
+                                    <img src="./images/icons/github_icon.png" alt="github" class="social-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</html>
